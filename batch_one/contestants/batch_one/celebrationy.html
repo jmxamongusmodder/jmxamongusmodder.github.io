@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>celebrationy</title>
+
+    <style>
+        body {
+            font-size: 1.5em;
+            background-color: #ececec;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-size: 1.25em;
+        }
+        #navigation {
+            text-align: center;
+            padding: 0.25em;
+        }
+        #container {
+            max-width: 1400px;
+            margin: auto;
+        }
+        #container p {
+            padding-bottom: 1.2rem;
+        }
+        #contestant-data {
+            display: inline-block;
+            vertical-align: baseline;
+            width: 300px;
+            height: 560px;
+            margin: 10px;
+        }
+        #contestant-data p {
+            display: block;
+        }
+        #image-container {
+            display: inline-block;
+            float: left;
+        }
+        .contestant-image {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 20px;
+            width: 632px;
+        }
+        .contestant-image-not-found {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 20px;
+            width: 316px;
+            padding: 140px 158px;
+            background-color: #d4d4d4;
+        }
+        @media only screen and (max-width: 700px) {
+            .contestant-image {
+                width: calc(100% - 20px);
+            }
+        }
+        @media only screen and (max-width: 987px) {
+            #contestant-data {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="navigation">
+        <a href="https://jmxamongusmodder.github.io/batch_one/contestants/batch_one/celebrationy.html" style="margin-right: 20px;">previous</a>
+        <a href="https://jmxamongusmodder.github.io/batch_one/contestants/batch_one/apple.html" style="margin-left: 20px;">next</a>
+    </div>
+    <div id="container">
+        <div id="image-container">
+            <img src="ce.png" class="contestant-image">
+        </div>
+        <div id="contestant-data">
+            <p class="competition-name">Competition Name: Celebrationy</p>
+            <p>Legal Name: Maurice Longenton</p>
+            <p>Sex: M</p>
+            <p>Age: 26</p>
+            <p>Height: 4'3</p>
+            <p>Residence: N/A</p>
+            <p class="occupation">Occupation: Bartender</p>
+            <p>Competition Placement: N/A</p>
+        </div>
+        <div style="margin: 10px;">
+            <p>Additional Notes:</p>
+            <p>- Hyperactive.</p>
+        </div>
+    </div>
+</body>
+</html>
